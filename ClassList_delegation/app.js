@@ -25,7 +25,7 @@ const wrapper = document.querySelector(".btn-block");
 // console.log(btns[0].classList);
 
 wrapper.addEventListener("click", (e) => {
-  if (e.target && e.target.matches("button.red")) {
+  if (e.target && e.target.matches("button.blue")) {
     console.log("hello");
   }
 });
